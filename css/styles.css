@@ -74,19 +74,19 @@ textarea {
 
 html,
 body {
-  font-family: 'Lato', sans-serif !important;
+  font-family: 'Fredoka One', cursive !important;
 }
 
 .glyphicon,
 .fa {
-  color: #3499DB;
+  color: #78281F;
 }
 
 
 /* Landing page */
 
 header {
-  background-image: linear-gradient(rgba( 52, 153, 219, 0.8), rgba( 52, 153, 219, 0.8)), url('https://samiralibabic.github.io/portfolio/img/pexels-photo-min.jpg');
+  background-image: linear-gradient(rgba( 21, 67, 96, 0.3), rgba( 52, 153, 219, 0.2)), url('../images/nairobi-2730268_1920.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -132,7 +132,8 @@ header {
 }
 
 .navbar-scrolled {
-  background-color: #3499DB !important;
+  background-color: #78281F !important;
+  background-image: url('../images/nairobi-2730268_1920.jpg');
   transition: background-color 0.4s;
   box-shadow: 0 0 10px 2px;
 }
@@ -207,7 +208,7 @@ header {
 .hero-text-box .btn-default:focus{
   color: white;
   border-color: white;
-  background-color: #3499DB;
+  background-color: #117A65;
   transition: all 0.4s;
 }
 
@@ -313,7 +314,10 @@ h3 {
 
 #contact {
   color: white;
-  background-color: #3499DB;
+  background-color: #78281F;
+  background-image: url('../images/nairobi-2730268_1920.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 3rem 0;
 }
 
