@@ -1,172 +1,182 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Newton Bii Portfolio</title>
-  </head>
-  <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#home">
-          Jay Karlsven
-        </a>
-      </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-
-  <!-- home section -->
-  <a id="home"></a>
-  <section class="home-intro">
-    <div class="container vcenter">
-      <div class="row center-block">
-        <div class="col-xs-12 text-center">
-          <div class="content">
-             <h1>Jay Karlsven</h1>
-            <h2>WEB DEVELOPER</h2>
-            <ul>
-              <li><a href="https://github.com/JayV30" target="_blank"><i class="fa fa-github-square fa-3x fa-fw"></i></a></li>
-              <li><a href="https://twitter.com/JayV30" target="_blank"><i class="fa fa-twitter-square fa-3x fa-fw"></a></i></li>
-              <li><a href="https://codepen.io/JayV30/" target="_blank"><i class="fa fa-codepen fa-3x fa-fw"></i></a></li>
-            </ul>
-          </div>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Newton Bii Kipng'eno</title>
+  <meta name="description" content="Personal portfolio of Web Designer and Developer Samir Alibabic">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+  <header id="landing">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu-items" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#landing"><span class="glyphicon glyphicon-home" aria-label="Home" aria-hidden="true"></span></a>
         </div>
+        <div class="collapse navbar-collapse navbar-right" id="main-menu-items">
+          <ul class="nav navbar-nav">
+            <li><a href="#intro">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="hero-text-box">
+      <h1 id="main-heading">Samir Alibabic</h1>
+      <h2 id="main-subheading">Web Designer &amp; Developer</h2>
+      <a href="#projects" class="btn btn-default">Latest Projects</a>
+    </div>
+  </header>
+  <section id="intro" class="row">
+    <div class="col-sm-4 col-md-4 col-lg-4">
+      <h3 class="text-center"><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span><br>Projects</h3>
+      <p>
+        I'm using various technologies to create user-friendly, accessible and well-designed online solutions. Some of the work presented here was created on my journey to become a web developer and some was created for clients who trusted in me.
+      </p>
+    </div>
+    <div class="col-sm-4 col-md-4 col-lg-4">
+      <h3 class="text-center"><span class="glyphicon glyphicon-education" aria-hidden="true"></span><br>Experience</h3>
+      <p>
+        After graduating from University I started working as an IT-administrator and later as a GIS and database expert in a local civil engineering company. After spending more than 6 years there I've quit to become a developer which has always been my passion.
+      </p>
+    </div>
+    <div class="col-sm-4 col-md-4 col-lg-4">
+      <h3 class="text-center"><span class="glyphicon glyphicon-time" aria-hidden="true"></span><br>Future</h3>
+      <p>
+        I'm currently a student at Free Code Camp and Codecademy, where I sharpen my development skills while I'm looking for a new company to work for in this interesting field. <em>Aktuell verbessere ich auch meiner Deutschkenntnisse.</em>
+      </p>
+    </div>
+  </section>
+  <section id="projects" class="row">
+    <h3 class="text-center">Latest projects</h3><br>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <a href="http://rbk-japod.org" class="thumbnail" target="_blank">
+      <img src="https://samiralibabic.github.io/portfolio/img/japod-min.png" data-src="holder.js/100%x200" alt="RBK Japod" style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTM0IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDEzNCAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTU0M2Q4ZGQyYzEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNTQzZDhkZDJjMSI+PHJlY3Qgd2lkdGg9IjEzNCIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI0MS4wNjI1IiB5PSI5NC41Ij4xMzR4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
+        data-holder-rendered="true">
+    </a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <a href="http://rbk-japod.org/omnifood/" class="thumbnail" target="_blank">
+      <img src="https://samiralibabic.github.io/portfolio/img/omnifood-min.png" data-src="holder.js/100%x180" alt="Omnifood" style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTM0IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDEzNCAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTU0M2Q4ZGQyYzEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNTQzZDhkZDJjMSI+PHJlY3Qgd2lkdGg9IjEzNCIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI0MS4wNjI1IiB5PSI5NC41Ij4xMzR4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
+        data-holder-rendered="true">
+    </a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <a href="https://codepen.io/samiralibabic/full/jqxVYO/" class="thumbnail" target="_blank">
+      <img src="https://samiralibabic.github.io/portfolio/img/carlin-min.png" data-src="holder.js/100%x180" alt="George Carlin Tribute Page" style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTM0IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDEzNCAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTU0M2Q4ZGQyYzEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNTQzZDhkZDJjMSI+PHJlY3Qgd2lkdGg9IjEzNCIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI0MS4wNjI1IiB5PSI5NC41Ij4xMzR4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
+        data-holder-rendered="true">
+    </a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <a href="https://codepen.io/samiralibabic/pen/VaRLax/" class="thumbnail" target="_blank">
+      <img src="https://samiralibabic.github.io/portfolio/img/quotes-min.png" data-src="holder.js/100%x180" alt="Random Quote Machine" style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTM0IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDEzNCAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTU0M2Q4ZGQyYzEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNTQzZDhkZDJjMSI+PHJlY3Qgd2lkdGg9IjEzNCIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI0MS4wNjI1IiB5PSI5NC41Ij4xMzR4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
+        data-holder-rendered="true">
+    </a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <a href="https://samiralibabic.github.io/energyDrink/" class="thumbnail" target="_blank">
+      <img src="https://samiralibabic.github.io/portfolio/img/energy-drink-min.png" data-src="holder.js/100%x180" alt="EnergyDrink" style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTM0IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDEzNCAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTU0M2Q4ZGQyYzEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNTQzZDhkZDJjMSI+PHJlY3Qgd2lkdGg9IjEzNCIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI0MS4wNjI1IiB5PSI5NC41Ij4xMzR4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
+        data-holder-rendered="true">
+    </a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <a href="https://codepen.io/samiralibabic/full/WwqeBB/" class="thumbnail" target="_blank">
+      <img src="https://samiralibabic.github.io/portfolio/img/wiki-viewer-min.png" data-src="holder.js/100%x180" alt="Wikipedia Viewer" style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTM0IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDEzNCAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTU0M2Q4ZGQyYzEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNTQzZDhkZDJjMSI+PHJlY3Qgd2lkdGg9IjEzNCIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI0MS4wNjI1IiB5PSI5NC41Ij4xMzR4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
+        data-holder-rendered="true">
+    </a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <a href="https://codepen.io/samiralibabic/full/QNRLpP/" class="thumbnail" target="_blank">
+      <img src="https://samiralibabic.github.io/portfolio/img/weather-app-min.png" data-src="holder.js/100%x180" alt="Weather App" style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTM0IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDEzNCAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTU0M2Q4ZGQyYzEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNTQzZDhkZDJjMSI+PHJlY3Qgd2lkdGg9IjEzNCIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI0MS4wNjI1IiB5PSI5NC41Ij4xMzR4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
+        data-holder-rendered="true">
+    </a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <a href="https://codepen.io/samiralibabic/full/WwVzQP/" class="thumbnail" target="_blank">
+      <img src="https://samiralibabic.github.io/portfolio/img/twitch-min.png" data-src="holder.js/100%x180" alt="Twitch JSON App" style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTM0IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDEzNCAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTU0M2Q4ZGQyYzEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNTQzZDhkZDJjMSI+PHJlY3Qgd2lkdGg9IjEzNCIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI0MS4wNjI1IiB5PSI5NC41Ij4xMzR4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
+        data-holder-rendered="true">
+    </a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <a href="https://samiralibabic.github.io/flyacts/" class="thumbnail" target="_blank">
+      <img src="https://samiralibabic.github.io/portfolio/img/flyacts-min.png" data-src="holder.js/100%x180" alt="FlyActs GmbH" style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTM0IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDEzNCAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTU0M2Q4ZGQyYzEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNTQzZDhkZDJjMSI+PHJlY3Qgd2lkdGg9IjEzNCIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI0MS4wNjI1IiB5PSI5NC41Ij4xMzR4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+" data-holder-rendered="true">
+    </a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <a href="https://codepen.io/samiralibabic/full/rLjYgx/" class="thumbnail" target="_blank">
+      <img src="https://samiralibabic.github.io/portfolio/img/mycalc-min.png" data-src="holder.js/100%x180" alt="FlyActs GmbH" style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTM0IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDEzNCAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTU0M2Q4ZGQyYzEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNTQzZDhkZDJjMSI+PHJlY3Qgd2lkdGg9IjEzNCIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI0MS4wNjI1IiB5PSI5NC41Ij4xMzR4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+" data-holder-rendered="true">
+    </a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <a href="https://samiralibabic.github.io/first-reactjs-demo/" class="thumbnail" target="_blank">
+      <img src="https://samiralibabic.github.io/portfolio/img/react-notes-min.png" data-src="holder.js/100%x180" alt="FlyActs GmbH" style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTM0IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDEzNCAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTU0M2Q4ZGQyYzEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNTQzZDhkZDJjMSI+PHJlY3Qgd2lkdGg9IjEzNCIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI0MS4wNjI1IiB5PSI5NC41Ij4xMzR4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+" data-holder-rendered="true">
+    </a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <a href="https://samiralibabic.github.io/netzbewegung/" class="thumbnail" target="_blank">
+      <img src="https://samiralibabic.github.io/portfolio/img/netzbewegung-min.png" data-src="holder.js/100%x180" alt="Landing Page" style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTM0IiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDEzNCAxODAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzEwMCV4MTgwCkNyZWF0ZWQgd2l0aCBIb2xkZXIuanMgMi42LjAuCkxlYXJuIG1vcmUgYXQgaHR0cDovL2hvbGRlcmpzLmNvbQooYykgMjAxMi0yMDE1IEl2YW4gTWFsb3BpbnNreSAtIGh0dHA6Ly9pbXNreS5jbwotLT48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwhW0NEQVRBWyNob2xkZXJfMTU0M2Q4ZGQyYzEgdGV4dCB7IGZpbGw6I0FBQUFBQTtmb250LXdlaWdodDpib2xkO2ZvbnQtZmFtaWx5OkFyaWFsLCBIZWx2ZXRpY2EsIE9wZW4gU2Fucywgc2Fucy1zZXJpZiwgbW9ub3NwYWNlO2ZvbnQtc2l6ZToxMHB0IH0gXV0+PC9zdHlsZT48L2RlZnM+PGcgaWQ9ImhvbGRlcl8xNTQzZDhkZDJjMSI+PHJlY3Qgd2lkdGg9IjEzNCIgaGVpZ2h0PSIxODAiIGZpbGw9IiNFRUVFRUUiLz48Zz48dGV4dCB4PSI0MS4wNjI1IiB5PSI5NC41Ij4xMzR4MTgwPC90ZXh0PjwvZz48L2c+PC9zdmc+" data-holder-rendered="true">
+    </a>
+    </div>
+  </section>
+  <section id="skills" class="row">
+    <div class="col-xs-10 col-xs-offset-1">
+      <h3 class="text-center">Skills and services</h3>
+      <p class="text-center">
+        My ultimate goal is to become a full-stack web developer and my skill-set constantly changes. Currently my strongest point is in the front-end department.
+      </p><br />
+      <div class="row text-center">
+        <i class="fa fa-html5 fa-5x" aria-hidden="true"></i>
+        <i class="fa fa-css3 fa-5x" aria-hidden="true"></i>
+        <i class="fizz icon-javascript"></i>
+        <i class="fizz icon-wordpress"></i>
+        <i class="fizz icon-ubuntu"></i>
+        <i class="fizz icon-python"></i>
       </div>
     </div>
   </section>
+  <footer id="contact" class="row">
+    <h3 class="text-center">Contact</h3>
+    <div class="col-xs-10 col-xs-offset-1 text-center">
+      <p>
+        I'd be happy to answer any questions you might have (or to have a coffee together) so feel free to contact me anyway you like.
+      </p>
+      <a href="mailto:samir.alibabic@gmail.com" target="_blank">
+      <span class="glyphicon glyphicon-envelope"></span></a>
+      <a href="https://www.facebook.com/samiralibabic" target="_blank">
+      <i class="fa fa-facebook" aria-hidden="true"></i></a>
+      <a href="https://twitter.com/samiralibabic" target="_blank">
+      <i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/samiralibabic" target="_blank">
+      <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      <a href="https://github.com/samiralibabic" target="_blank">
+      <i class="fa fa-github" aria-hidden="true"></i></a>
+      <a href="https://www.freecodecamp.com/samiralibabic" target="_blank">
+      <i class="fa fa-free-code-camp" aria-hidden="true"></i></a>
+      <a href="https://www.codecademy.com/samiralibabic" target="_blank">
+      <i class="fa fa-cc" aria-hidden="true"></i></a>
+    </div><br>
+  </footer>
 
-  <!-- about section -->
-  <a id="about"></a>
-  <section class="about">
-    <div class="container vcenter">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="content">
-            <blockquote>Life isn't about finding yourself. Life is about creating yourself.<small>George Bernard Shaw</small></blockquote>
-            <p>I'm a self-taught web designer and developer currently living in Columbus, OH. In addition to my web dev skills, I have a very diverse background outside of the tech field. In the past I have been a police officer, news traffic producer, camera assistant, photographer, and video editor.</p>
-            <p>I bring an eye for visual and user interaction design to every project. I'm always looking to learn new skills and play with new technologies. I'm available for freelance work remotely or on-site in the Columbus, OH or Washington, DC areas.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- portfolio section -->
-  <a id="portfolio"></a>
-  <section class="portfolio">
-    <div class="container">
-      <div class="content">
-        <div class="row">
-          <div class="col-xs-12">
-            <h2 class="text-center">A Selection of my Projects</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-3">
-            <a href="http://makechow.com" target="_blank">
-              <div class="project" style="background-image:url(https://jpk-image-hosting.s3.amazonaws.com/makechow.jpg)">
-                <div class="overlay">
-                  <h4>Make Chow</h4>
-                </div>
-              </div>
-            </a>
-          </div><!-- /.col-sm-3 -->
-          <div class="col-sm-3">
-            <a href="http://makechow.com" target="_blank">
-              <div class="project" style="background-image:url(https://jpk-image-hosting.s3.amazonaws.com/makechow.jpg)">
-                <div class="overlay">
-                  <h4>Make Chow</h4>
-                </div>
-              </div>
-            </a>
-          </div><!-- /.col-sm-3 -->
-          <div class="col-sm-3">
-            <a href="http://makechow.com" target="_blank">
-              <div class="project" style="background-image:url(https://jpk-image-hosting.s3.amazonaws.com/makechow.jpg)">
-                <div class="overlay">
-                  <h4>Make Chow</h4>
-                </div>
-              </div>
-            </a>
-          </div><!-- /.col-sm-3 -->
-          <div class="col-sm-3">
-            <a href="http://makechow.com" target="_blank">
-              <div class="project" style="background-image:url(https://jpk-image-hosting.s3.amazonaws.com/makechow.jpg)">
-                <div class="overlay">
-                  <h4>Make Chow</h4>
-                </div>
-              </div>
-            </a>
-          </div><!-- /.col-sm-3 -->
-          <div class="col-sm-3">
-            <a href="http://makechow.com" target="_blank">
-              <div class="project" style="background-image:url(https://jpk-image-hosting.s3.amazonaws.com/makechow.jpg)">
-                <div class="overlay">
-                  <h4>Make Chow</h4>
-                </div>
-              </div>
-            </a>
-          </div><!-- /.col-sm-3 -->
-          <div class="col-sm-3">
-            <a href="http://makechow.com" target="_blank">
-              <div class="project" style="background-image:url(https://jpk-image-hosting.s3.amazonaws.com/makechow.jpg)">
-                <div class="overlay">
-                  <h4>Make Chow</h4>
-                </div>
-              </div>
-            </a>
-          </div><!-- /.col-sm-3 -->
-          <div class="col-sm-3">
-            <a href="http://makechow.com" target="_blank">
-              <div class="project" style="background-image:url(https://jpk-image-hosting.s3.amazonaws.com/makechow.jpg)">
-                <div class="overlay">
-                  <h4>Make Chow</h4>
-                </div>
-              </div>
-            </a>
-          </div><!-- /.col-sm-3 -->
-          <div class="col-sm-3">
-            <a href="http://makechow.com" target="_blank">
-              <div class="project" style="background-image:url(https://jpk-image-hosting.s3.amazonaws.com/makechow.jpg)">
-                <div class="overlay">
-                  <h4>Make Chow</h4>
-                </div>
-              </div>
-            </a>
-          </div><!-- /.col-sm-3 -->
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- contact section -->
-  <a id="contact"></a>
-  <section class="contact">
-    <div class="container vcenter">
-      <div class="row center-block">
-        <div class="col-xs-12 text-center">
-          <h2>Want to talk?</h2>
-          <h3><a href="https://jpkarlsven.com/static_pages/contact" target="_blank">Contact me</a></h3>
-        </div>
-      </div>
-    </div>
-  </section>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/plugins.js" charset="utf-8"></script>
+<script src="js/main.js" charset="utf-8"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 </html>
