@@ -86,7 +86,7 @@ body {
 /* Landing page */
 
 header {
-  background-image: linear-gradient(rgba( 21, 67, 96, 0.3), rgba( 52, 153, 219, 0.2)), url('../images/nairobi-2730268_1920.jpg');
+  background-image: linear-gradient(rgba( 21, 67, 96, 0.3), rgba( 52, 153, 219, 0.2)), url('../images/nairobi-354282_1920.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -133,7 +133,7 @@ header {
 
 .navbar-scrolled {
   background-color: #78281F !important;
-  background-image: url('../images/nairobi-2730268_1920.jpg');
+  background-image: url('../images/nairobi-354282_1920.jpg');
   transition: background-color 0.4s;
   box-shadow: 0 0 10px 2px;
 }
@@ -315,7 +315,7 @@ h3 {
 #contact {
   color: white;
   background-color: #78281F;
-  background-image: url('../images/nairobi-2730268_1920.jpg');
+  background-image: url('../images/nairobi-354282_1920.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 3rem 0;
