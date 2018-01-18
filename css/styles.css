@@ -75,6 +75,7 @@ textarea {
 html,
 body {
   font-family: 'Fredoka One', cursive !important;
+
 }
 
 .glyphicon,
@@ -314,8 +315,7 @@ h3 {
 
 #contact {
   color: white;
-  background-color: #78281F;
-  background-image: url('../images/nairobi-354282_1920.jpg');
+  background-color: #154360;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 3rem 0;
