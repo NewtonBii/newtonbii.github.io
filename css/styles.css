@@ -524,8 +524,9 @@ h3 {
 }
 
 .portfolio-projects--image {
-  margin-bottom: 1.875em;
+  margin-bottom: 2.875em;
   padding-top: 5%;
+  height: 200px;
 }
 
 img {
