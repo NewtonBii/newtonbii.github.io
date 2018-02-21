@@ -23,15 +23,9 @@ hr {
   padding: 0;
 }
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
+audio, canvas, iframe, img, svg, video {
   vertical-align: middle;
 }
-
 
 fieldset {
   border: 0;
@@ -50,16 +44,13 @@ textarea {
   padding: 0.2em 0;
 }
 
-
 .color-primary-0 {
   color: #3499DB
 }
 
-
 .rgba-primary-0 {
-  color: rgba( 17, 122, 101 )
+  color: rgba( 17, 122, 101)
 }
-
 
 * {
   margin: 0;
@@ -72,17 +63,13 @@ textarea {
   margin-right: 0 !important;
 }
 
-html,
-body {
+html, body {
   font-family: 'Fredoka One', cursive !important;
-
 }
 
-.glyphicon,
-.fa {
+.glyphicon, .fa {
   color: #78281F;
 }
-
 
 /* Landing page */
 
@@ -94,15 +81,13 @@ header {
   min-height: 500px;
 }
 
-.navbar,
-.navbar-default {
+.navbar, .navbar-default {
   background-color: transparent !important;
   border: none !important;
   padding: 1rem 1rem !important;
 }
 
-.navbar-nav > li > a:link,
-.navbar-nav > li > a:visited {
+.navbar-nav>li>a:link, .navbar-nav>li>a:visited {
   color: white !important;
   text-transform: uppercase !important;
   font-size: 1.2rem;
@@ -122,8 +107,7 @@ header {
   font-size: 2rem;
 }
 
-.navbar-nav > li > a:hover,
-.navbar-nav > li > a:active {
+.navbar-nav>li>a:hover, .navbar-nav>li>a:active {
   color: white !important;
   text-transform: uppercase !important;
   border-bottom: 1px solid white !important;
@@ -193,26 +177,19 @@ header {
   top: 100px;
 }
 
-.hero-text-box .btn,
-.hero-text-box .btn-default,
-.hero-text-box .btn-default:visited,
-.hero-text-box .btn-default:active:hover,
-.hero-text-box .btn-default:active:focus {
+.hero-text-box .btn, .hero-text-box .btn-default, .hero-text-box .btn-default:visited, .hero-text-box .btn-default:active:hover, .hero-text-box .btn-default:active:focus {
   color: white;
   background: none;
   border: 1px solid;
   transition: all 0.4s;
 }
 
-.hero-text-box .btn:hover,
-.hero-text-box .btn-default:hover,
-.hero-text-box .btn-default:focus{
+.hero-text-box .btn:hover, .hero-text-box .btn-default:hover, .hero-text-box .btn-default:focus {
   color: white;
   border-color: white;
   background-color: #117A65;
   transition: all 0.4s;
 }
-
 
 /* Intro section */
 
@@ -260,7 +237,6 @@ header {
   border-bottom: 1px solid #e7e7e7;
 }
 
-
 /* Latest projects */
 
 #projects {
@@ -277,7 +253,6 @@ h3 {
   object-fit: cover;
   object-position: top;
 }
-
 
 /* Skills */
 
@@ -310,7 +285,6 @@ h3 {
   }
 }
 
-
 /* Contact */
 
 #contact {
@@ -321,9 +295,7 @@ h3 {
   padding: 3rem 0;
 }
 
-#contact i,
-#contact .glyphicon,
-#contact img {
+#contact i, #contact .glyphicon, #contact img {
   padding: 10px 10px;
   font-size: 30px;
   margin-bottom: 30px;
@@ -346,22 +318,18 @@ h3 {
   }
 }
 
-#contact .glyphicon,
-#contact .fa {
+#contact .glyphicon, #contact .fa {
   color: white;
 }
 
-#contact .glyphicon:hover,
-#contact .fa:hover {
+#contact .glyphicon:hover, #contact .fa:hover {
   color: #C9C9C9;
   transition: all 0.4s;
 }
 
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-
 
 /*
  * Hide visually and from screen readers
@@ -370,7 +338,6 @@ h3 {
 .hidden {
   display: none !important;
 }
-
 
 /*
  * Hide only visually, but have it available for screen readers:
@@ -388,15 +355,13 @@ h3 {
   width: 1px;
 }
 
-
 /*
  * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   clip: auto;
   height: auto;
   margin: 0;
@@ -405,7 +370,6 @@ h3 {
   width: auto;
 }
 
-
 /*
  * Hide visually and from screen readers, but maintain layout
  */
@@ -413,7 +377,6 @@ h3 {
 .invisible {
   visibility: hidden;
 }
-
 
 /*
  * Clearfix: contain floats
@@ -427,8 +390,7 @@ h3 {
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
+.clearfix:before, .clearfix:after {
   content: " ";
   /* 1 */
   display: table;
@@ -438,7 +400,6 @@ h3 {
 .clearfix:after {
   clear: both;
 }
-
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -450,13 +411,9 @@ h3 {
   /* Style adjustments for viewports that meet the condition */
 }
 
-@media print,
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 1.25dppx),
-(min-resolution: 120dpi) {
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
-
 
 /* ==========================================================================
    Print styles.
@@ -465,11 +422,7 @@ h3 {
    ========================================================================== */
 
 @media print {
-  *,
-  *:before,
-  *:after,
-  *:first-letter,
-  *:first-line {
+  *, *:before, *:after, *:first-letter, *:first-line {
     background: transparent !important;
     color: #000 !important;
     /* Black prints faster:
@@ -477,8 +430,7 @@ h3 {
     box-shadow: none !important;
     text-shadow: none !important;
   }
-  a,
-  a:visited {
+  a, a:visited {
     text-decoration: underline;
   }
   a[href]:after {
@@ -491,12 +443,10 @@ h3 {
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
+  a[href^="#"]:after, a[href^="javascript:"]:after {
     content: "";
   }
-  pre,
-  blockquote {
+  pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
@@ -507,21 +457,85 @@ h3 {
   thead {
     display: table-header-group;
   }
-  tr,
-  img {
+  tr, img {
     page-break-inside: avoid;
   }
   img {
     max-width: 100% !important;
   }
-  p,
-  h2,
-  h3 {
+  p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
-  h2,
-  h3 {
+  h2, h3 {
     page-break-after: avoid;
   }
+}
+
+#portfolio {
+  background-color: #25b79f;
+}
+
+#portfolio h2 {
+  padding-bottom: 1.25em;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-projects {
+    margin-top: 0.625em;
+  }
+}
+
+.portfolio-projects--title {
+  margin-top: 0.9375em;
+  color: #21618C;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-projects--title {
+    margin-top: 20%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio-projects--title {
+    margin-top: 5%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio-projects--desc {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
+
+.portfolio-projects--btn {
+  background: transparent;
+  color: #07374a;
+  border: 1px solid #07374a;
+  border-radius: 5px;
+  margin-bottom: 1.25em;
+}
+
+.portfolio-projects--btn:hover {
+  background: #07374a;
+  color: #f0f0e6;
+}
+
+.portfolio-projects--image {
+  margin-bottom: 1.875em;
+  padding-top: 5%;
+}
+
+img {
+  width: 100%;
+  height:100%;
+}
+
+.portfolio-projects--btn:hover {
+  background-color: #AED6F1;
+}
+.portfolio-projects--btn{
+  color: #D35400;
 }
