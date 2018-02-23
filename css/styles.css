@@ -208,15 +208,17 @@ header {
   text-align: center;
 }
 
-/* #intro {
+#intro {
   margin-top: 1rem;
-  /* background-image: url('../images/bokeh-2990426_1280.jpg');
-  background-repeat: no-repeat;
-  background-size: cover; */
-
+}
 
 .about-me {
   border-left: 2px solid hsl(56, 44%, 58%);
+}
+
+.tools {
+  border-left: 1px solid hsl(56, 44%, 58%);
+  color: rgb(75, 50, 71)
 }
 
 .image-frame {
@@ -224,7 +226,7 @@ header {
   z-index: 1;
   display: inline-block;
   margin-top: 5rem;
-  box-shadow: 0 0 50px rgba(0,0,0,.3);
+  box-shadow: 0 0 50px rgba(0, 0, 0, .3);
 }
 
 .image-frame img {
@@ -319,6 +321,7 @@ h3 {
 #skills {
   padding: 3rem 0;
   height: 600px;
+  margin-top: 100px;
 }
 
 #skills i {
