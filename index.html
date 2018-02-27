@@ -108,7 +108,7 @@
       <h3 class="text-center">Tools and Environments</h3>
       <div class="tools">
         <div class="bit-3">
-          <div class="box"><i class="fab fa-trello" aria-hidden="true"  style="float:left;font-size:50px"></i>
+          <div class="box"><i class="fab fa-trello" aria-hidden="true" style="float:left;font-size:50px"></i>
             <p>Trello</p>
           </div>
         </div>
@@ -233,8 +233,8 @@
     </div>
   </section>
   <section id="contact" class="row">
-    <h3 class="text-center">Contacts</h3>
-    <div class="col-xs-10 col-xs-offset-1 text-center">
+    <h3 class="text-center">Contact</h3>
+    <div class="col-sm-5 col-md-5 col-lg-5 text-center">
       <p>
         I am always available and free to talk. Feel free to contact me.
       </p>
@@ -244,9 +244,54 @@
       <i class="fab fa-linkedin" aria-hidden="true"></i></a>
       <a href="https://github.com/NewtonBii" target="_blank">
       <i class="fab fa-github" aria-hidden="true"></i></a>
-      <a href="https://twitter.com/BiiNewton" target="_blank">
-      <i class="fab fa-twitter" aria-hidden="true"></i></a>
-    </div><br>
+    </div>
+    <div class="col-sm-7 col-md-7 col-lg-7">
+
+
+      <div class="inner contact">
+        <!-- Form Area -->
+        <div class="contact-form">
+          <!-- Form -->
+          <form id="contact-us" method="post" action="#">
+            <!-- Left Inputs -->
+            <div class="col-xs-6 wow animated slideInLeft" data-wow-delay=".5s">
+              <!-- Name -->
+              <input type="text" name="name" id="name" required="required" class="form" placeholder="Name" />
+              <!-- Email -->
+              <input type="email" name="mail" id="mail" required="required" class="form" placeholder="Email" />
+              <!-- Subject -->
+              <input type="text" name="subject" id="subject" required="required" class="form" placeholder="Subject" />
+            </div>
+            <!-- End Left Inputs -->
+            <!-- Right Inputs -->
+            <div class="col-xs-6 wow animated slideInRight" data-wow-delay=".5s">
+              <!-- Message -->
+              <textarea name="message" id="message" class="form textarea" placeholder="Message"></textarea>
+            </div>
+            <!-- End Right Inputs -->
+            <!-- Bottom Submit -->
+            <div class="relative fullwidth col-xs-12">
+              <!-- Send Button -->
+              <button type="submit" id="submit" name="submit" class="form-btn semibold">Send Message</button>
+            </div>
+            <!-- End Bottom Submit -->
+            <!-- Clear -->
+            <div class="clear"></div>
+          </form>
+
+          <!-- Your Mail Message -->
+          <div class="mail-message-area">
+            <!-- Message -->
+            <div class="alert gray-bg mail-message not-visible-message">
+              <strong>Thank You !</strong> Your email has been delivered.
+            </div>
+          </div>
+
+        </div>
+        <!-- End Contact Form Area -->
+      </div>
+      <!-- End Inner -->
+    </div>
   </section>
 
 </body>
