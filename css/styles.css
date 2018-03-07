@@ -155,7 +155,7 @@ header {
 
 .navbar-scrolled {
   background-color: #78281F !important;
-  background-image: url('../images/nairobi-354282_1920.jpg');
+  background-image: url('../images/landing.jpg');
   transition: background-color 0.4s;
   box-shadow: 0 0 10px 2px;
 }
